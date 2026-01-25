@@ -73,7 +73,7 @@ const Layout: React.FC<LayoutProps> = ({ children, theme, setTheme, activeTab, s
               <span className="font-bold text-sm uppercase tracking-widest">EaseInvo</span>
             </div>
             <p className="text-gray-500 dark:text-zinc-500 text-[10px] max-w-xs leading-tight mb-2">
-              Premium invoicing experience. Fast, minimal, and private.
+              Premium invoicing experience. Fast, minimal, and private. <br></br>
               <b>Founded </b> by <b>Haris Shafi,</b> driven by a vision to make invoicing effortless for freelancers and small businesses everywhere
             </p>
             <div className="flex items-center gap-3 text-gray-400">
