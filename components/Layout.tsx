@@ -103,7 +103,7 @@ const Layout: React.FC<LayoutProps> = ({ children, theme, setTheme, activeTab, s
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-4 mt-4 pt-3 border-t border-gray-50 dark:border-zinc-900 text-center text-[9px] uppercase tracking-widest text-gray-400 font-bold">
-          &copy; {new Date().getFullYear()} EaseInvo &mdash; Developed by Haris Shafi
+          &copy; {new Date().getFullYear()} EaseInvo &mdash; Haris Shafi
         </div>
       </footer>
     </div>
