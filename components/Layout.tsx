@@ -79,7 +79,7 @@ const Layout: React.FC<LayoutProps> = ({ children, theme, setTheme, activeTab, s
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition-colors" aria-label="Twitter"><Twitter size={14} /></a>
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition-colors" aria-label="Github"><Github size={14} /></a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition-colors" aria-label="Linkedin"><Linkedin size={14} /></a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition-colors" aria-label="Instagram"><Instagram size={14} /></a>
+              <a href="https://www.instagram.com/easeinvo/" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition-colors" aria-label="Instagram"><Instagram size={14} /></a>
             </div>
           </div>
           <div>
