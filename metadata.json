@@ -1,0 +1,8 @@
+
+{
+  "name": "EaseInvo - Modern Invoice Generator",
+  "description": "A fast, minimal, and professional invoice generator with real-time preview, PDF export, and local storage persistence.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
