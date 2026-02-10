@@ -6,7 +6,7 @@ interface InvoicePreviewProps {
 }
 
 const InvoicePreview: React.FC<InvoicePreviewProps> = ({ invoice }) => {
-  const subtotal = invoice.items.reduce((acc, item) => acc + item.quantity * item.rate, 0);
+  const subtotal = invoice.items.reduce((acc, item) => acc + (item.quantity * item.rate), 0);
   const tax = subtotal * (invoice.taxRate / 100);
   const discount = subtotal * (invoice.discountRate / 100);
   const total = subtotal + tax - discount;
@@ -109,8 +109,9 @@ const InvoicePreview: React.FC<InvoicePreviewProps> = ({ invoice }) => {
           </div>
         );
 
+      // 👉 Minimal & Modern templates stay same layout but responsive tweaks can be applied similarly if you want
       default:
-        return <div className="p-6">Other templates unchanged</div>;
+        return <div className="p-6">Template</div>;
     }
   };
 
